@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public class Clock {
+public class Clock {
+
+    private int secondsInterval;
 }
