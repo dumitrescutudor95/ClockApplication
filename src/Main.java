@@ -5,6 +5,11 @@ public class Main {
         for (int i = 0; i <= 100 ; i++) {
             System.out.println("TIC");
         }
+
+        for (int i = 0; i < 100; i++) {
+            System.out.println("TAC");
+        }
+
         System.out.println("Gata!");
     }
 }
