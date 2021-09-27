@@ -1,18 +1,14 @@
 public class Main {
 
-    public static void main(String[] args) {
-
+    public static void main(String[] args)
+        throws InterruptedException {
         for (int i = 0; i <= 100 ; i++) {
             System.out.println("TIC");
 
-            try{
-                Thread.sleep(1000);
-            } catch (InterruptedException e) {
-                Thread.currentThread().interrupt();
-            }
-
+            Thread.sleep(1000);
             System.out.println("SI");
             System.out.println("TAC");
+            Thread.sleep(1000);
         }
         System.out.println("Gata!");
     }
