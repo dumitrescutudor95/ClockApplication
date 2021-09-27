@@ -6,9 +6,7 @@ public class Main {
             System.out.println("TIC");
             System.out.println("SI");
             System.out.println("TAC");
-
         }
-
         System.out.println("Gata!");
     }
 }
