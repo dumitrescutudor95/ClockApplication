@@ -1,3 +1,5 @@
+import java.util.Random;
+
 public class Clock {
 
     private int secondsInterval;
@@ -9,4 +11,5 @@ public class Clock {
     public int getSecondsInterval() {
         return secondsInterval;
     }
+
 }
